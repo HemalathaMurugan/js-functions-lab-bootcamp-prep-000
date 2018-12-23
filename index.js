@@ -13,3 +13,7 @@ function happyHolidayTo(holiday,name){
 function holidayCountDown(holiday,days){
   return `It's ${days} until${holiday}`
 }
+happyHolidays()
+happyHolidaysTo('Mary')
+happyHolidaysTo('Christmas','Nancy')
+holidayCountDown('Christmas','3')
